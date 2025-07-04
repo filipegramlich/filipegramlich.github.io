@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filipe Gramlich</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            border-bottom: 2px solid #000000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.0em;
+            font-weight: bold;
+            color: #000000;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #666666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 1.4em;
+            color: #000000;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .paper, .project {
+            margin-bottom: 25px;
+            padding: 15px;
+            border-left: 3px solid #e0e0e0;
+            background-color: #fafafa;
+        }
+
+        .paper h3, .project h3 {
+            font-size: 1.2em;
+            color: #000000;
+            margin-bottom: 8px;
+        }
+
+        .paper .authors, .project .tech {
+            font-size: 0.95em;
+            color: #666666;
+            margin-bottom: 5px;
+        }
+
+        .paper .venue, .project .date {
+            font-size: 0.9em;
+            color: #888888;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .abstract, .description {
+            font-size: 0.95em;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+
+        .links {
+            font-size: 0.9em;
+        }
+
+        .links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .bio {
+            font-size: 1.05em;
+            text-align: justify;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+        }
+
+        .date-submitted {
+            font-size: 0.85em;
+            color: #999999;
+            text-align: right;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .paper, .project {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filipe Gramlich</h1>
+    </header>
+
+    <div class="bio">
+        <strong>Aboute:</strong> 
+        .....
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Ganache</h3>
+            <div class="tech">Golang, Powerhell, NextJS, PostgreSQL, </div>
+            <div class="date">20245</div>
+            <div class="description">
+                Ganache is an AI system that fixes issues with USB printers for restaurants, bars, and snack bars.
+            </div>
+            <div class="links">
+                <a href="#">[código]</a>
+                <a href="#">[demo]</a>
+            </div>
+        </div>
+<!-- 
+        <div class="project">
+            <h3>Otimizador de Algoritmos</h3>
+            <div class="tech">C++, algoritmos, estruturas de dados</div>
+            <div class="date">2024</div>
+            <div class="description">
+                Implementação e otimização de algoritmos clássicos de ordenação e busca, com análise de complexidade computacional e comparação de performance em diferentes cenários.
+            </div>
+            <div class="links">
+                <a href="#">[código]</a>
+                <a href="#">[relatório]</a>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        
+        <div class="paper">
+            <h3>Programming Languages</h3>
+            <div class="description">
+                Python, JavaScript, Typescript, GoLang, HTML/CSS, SQL
+            </div>
+        </div>
+
+        <div class="paper">
+            <h3>Frameworks & Techs</h3>
+            <div class="description">
+                React, NextJS, Node.js, Express, Docker, Linux, Bash PostgreSQL
+            </div>
+        </div>
+
+        <!-- <div class="paper">
+            <h3>Áreas de Interesse</h3>
+            <div class="description">
+                Algoritmos, Estruturas de Dados, Machine Learning, Desenvolvimento Web, Análise de Dados, Otimização
+            </div>
+        </div> -->
+    </div>
+
+    <div class="contact-info">
+        <strong>Contact:</strong><br>
+        Email: <a href="mailto:filipe.ogramlich@gmail">filipe.ogramlich@gmail</a><br>
+        GitHub: <a href="https://github.com/filipegramlich">github.com/filipegramlich</a><br>
+        X: <a href="https://x.com/filipeogr">x.com/filipeogr</a><br>
+    </div>
+
+    <div class="date-submitted">
+        Last Update: July 2025
+    </div>
+</body>
+</html>
