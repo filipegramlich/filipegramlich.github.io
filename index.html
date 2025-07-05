@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filipe Gramlich</title>
+    <title>Filipe Gramlich - portfólio and archive</title>
     <style>
         * {
             margin: 0;
@@ -138,6 +138,16 @@
             font-style: italic;
         }
 
+        .video-container {
+            margin-top: 15px;
+        }
+
+        .video-container video {
+            border-radius: 5px;
+            border: 1px solid #d4c5d9;
+            box-shadow: 0 2px 8px rgba(107, 91, 149, 0.1);
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 15px;
@@ -168,14 +178,20 @@
         
         <div class="project">
             <h3>Ganache</h3>
-            <div class="tech">Golang, Powershell, NextJS, PostgreSQL, </div>
+            <div class="tech">Golang, Powershell, NextJS, PostgreSQL, OpenAI API </div>
             <div class="date">2025</div>
             <div class="description">
                 Ganache is an AI system that fixes issues with USB printers for restaurants, bars, and snack bars.
             </div>
             <div class="links">
-                <a href="#">[código]</a>
-                <a href="#">[demo]</a>
+                <a href="https://ganache.app/" target="_blank"">[acess project]</a>
+            </div>
+            <div class="video-container">
+                <video width="100%" height="auto" controls>
+                    <source src="ganache-demo.mp4" type="video/mp4">
+                    <source src="ganache-demo.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </div>
@@ -186,7 +202,7 @@
         <div class="paper">
             <h3>Programming Languages</h3>
             <div class="description">
-                Python, JavaScript, Typescript, GoLang, Elixir
+                Python, JavaScript, Typescript, GoLang, HTML/CSS, SQL
             </div>
         </div>
 
